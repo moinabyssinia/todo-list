@@ -1,1 +1,26 @@
-/*  */
+/* must be responsive 
+   use a background with gradient
+   make the todo table white and gray rows
+*/
+
+h1{
+    background-color: steelblue;
+    width: 30%;
+    color: white;
+    margin: 10% 35% 0 35%;
+    font-family: consolas;
+    padding: 1px 2px;
+}
+.text-box{
+    width: 30%;
+    margin: 0 35%;
+    padding: 7px 0;
+}
+h4{
+    background-color: rgb(177, 180, 182);
+    width: 30%;
+    color: black;
+    margin: 0% 35% 0 35%;
+    font-family: consolas;
+    padding: 1px 2px;
+}
