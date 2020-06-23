@@ -16,6 +16,9 @@ h1{
     margin: 0 35%;
     padding: 7px 0;
 }
+/* find a way to alternate the shades of 
+    even and odd rows
+*/
 .embellishTodo{
     background-color: rgb(177, 180, 182);
     width: 30%;
