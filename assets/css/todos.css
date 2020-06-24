@@ -1,11 +1,13 @@
 /* must be responsive 
    use a background with gradient
    make the todo table white and gray rows
+   remove the bullets and replace with delte button
+   add fadeIn effect to buttons
 */
 .container{
     width: 360px;
-    margin: 0 auto;
-    border: 2px solid gray;
+    margin: 10% auto;
+    /* border: 2px solid gray; */
 }
 
 .lineThrough{
@@ -13,27 +15,27 @@
     color: gray;
 }
 
-/* h1{
+h1{
+    width: 360px;
     background-color: steelblue;
-    width: 30%;
     color: white;
-    margin: 10% 35% 0 35%;
+    margin: 0 auto;
     font-family: consolas;
     padding: 1px 2px;
-} */
-/* .text-box{
-    width: 30%;
-    margin: 0 35%;
+}
+.text-box{
+    /* margin: 0 35%; */
+    width: 360px;
     padding: 7px 0;
-} */
+}
 /* find a way to alternate the shades of 
     even and odd rows
 */
 .embellishTodo{
     background-color: rgb(177, 180, 182);
-    width: 30%;
+    width: 360px;
     color: black;
-    margin: 0% 35% 0 35%;
+    margin: 0 auto;
     font-family: consolas;
     padding: 3px 2px;
     border-bottom: 0.5px solid black;
