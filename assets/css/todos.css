@@ -2,20 +2,30 @@
    use a background with gradient
    make the todo table white and gray rows
 */
+.container{
+    width: 360px;
+    margin: 0 auto;
+    border: 2px solid gray;
+}
 
-h1{
+.lineThrough{
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* h1{
     background-color: steelblue;
     width: 30%;
     color: white;
     margin: 10% 35% 0 35%;
     font-family: consolas;
     padding: 1px 2px;
-}
-.text-box{
+} */
+/* .text-box{
     width: 30%;
     margin: 0 35%;
     padding: 7px 0;
-}
+} */
 /* find a way to alternate the shades of 
     even and odd rows
 */
