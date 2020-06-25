@@ -11,8 +11,9 @@ $("input[type='text']").keypress(function(event){
         console.log($(this).val());
 
         //create a new element
-        $("ul").append("<li><span>X </span>"+$(this).val()+"</li>")
-        $("li").toggleClass("embellishTodo");
+        // $("ul").classList.add("noBullets");
+        $("ul").append("<li><span><i class='fas fa-trash-alt'></i> </span>"+$(this).val()+"</li>")
+        // $("li").toggleClass("embellishTodo");
         //clear out text input after hitting enter
         $("input[type='text']").val("");
     }

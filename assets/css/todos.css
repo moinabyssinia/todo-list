@@ -6,8 +6,17 @@
 */
 .container{
     width: 360px;
-    margin: 10% auto;
+    margin: 100px auto;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
     /* border: 2px solid gray; */
+}
+
+body{
+    background: #F0C27B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4B1248, #F0C27B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4B1248, #F0C27B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .lineThrough{
@@ -19,24 +28,57 @@ h1{
     width: 360px;
     background-color: steelblue;
     color: white;
-    margin: 0 auto;
+    margin: 0 0;
     font-family: consolas;
-    padding: 1px 2px;
+    padding: 10px 20px;
+    font-weight: normal;
 }
-.text-box{
+input{
     /* margin: 0 35%; */
-    width: 360px;
-    padding: 7px 0;
+    font-size: 18px;
+    width: 400px;
+    margin: 0 0;
+    padding: 13px 13px 13px 20px;
+    /* width and height properties include
+       padding and boder, but not the margin
+    */
+    box-sizing: border-box;
+    font-family: consolas;
+}
+input:focus{
+    background: white;
+    border: 3px solid rgb(116, 116, 121);
+    outline: none;
 }
 /* find a way to alternate the shades of 
     even and odd rows
 */
-.embellishTodo{
-    background-color: rgb(177, 180, 182);
-    width: 360px;
-    color: black;
-    margin: 0 auto;
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    background: white; 
     font-family: consolas;
-    padding: 3px 2px;
+    height: 40px;
+    /* so that line takes the entire 40px from above */
+    line-height: 40px;
+    width: 367px;
+    padding: 0 13px 0 20px;
     border-bottom: 0.5px solid black;
 }
+li:nth-child(2n){
+    background: #f7f7f7;
+    font-family: consolas;
+    width: 367px;
+    padding: 0 13px 0 20px;
+    border-bottom: 0.5px solid black;
+}
+
+.fa-plus{
+    float: right;
+}
+
+/* toggle the trash can on and off when hovered at */
